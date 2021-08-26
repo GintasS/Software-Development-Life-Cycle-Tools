@@ -8,11 +8,10 @@ All of these descriptions are taken [devoxsoftware](https://devoxsoftware.com/bl
 ## 1. Analysis
 
 Description:
-
 > During this software development lifecycle phase, the specialists meticulously collect precise requirements from the customer to present a solution fine-tuned to their needs. 
 > Any unclarities must be elucidated in this stage only.
 
-**Tools/techniques/helpers:**
+### Tools/techniques/helpers:
 
 - Miro
 - Diagrams
@@ -35,7 +34,6 @@ Description:
  ## 2. Planning
  
  Description:
-
 > The purpose of the second stage is to outline the scope of the problem and identify solutions. Resources, costs, time, and other aspects should be considered here. The planning > phase of the SDLC is also when the project plan is developed that identifies, prioritizes, and assigns the tasks and resources required to build the structure for a project.
 > With that said, this step culminates in a detailed project plan.
 
@@ -53,7 +51,7 @@ Description:
 > management and storage for future processing, retrieval, or evaluation.
 > Among other things, the development team will mull over the core components, structure, processing, and procedures for the system to reach the stated goal.
 
-**Tools/techniques/helpers:**
+### Tools/techniques/helpers:
 - Miro
 - High-Level Design charts
 - Low-level Design charts
@@ -81,44 +79,92 @@ Description:
   - SonarAnalyzer.Csharp
 
 #### Databases
-- MS Server Management Studio
+- Oracle
+- MySQL
+- Microsoft SQL Server
+- PostgresSQL
+- MongoDB
+- (tool) MS Server Management Studio
 
 #### CI/CD
-  - Travis CI
-  - AppVeyor
-  - Azure DevOps
-  - Jenkins
-  - TeamCity
-  - GitLab
-  - GoCD
+- Travis CI
+- AppVeyor
+- Azure DevOps
+- Jenkins
+- TeamCity
+- GitLab
+- GoCD
 
 #### Version Control
-  - Git
-  - GitExtensions
-  - GitHub
-  - Azure DevOps
-  - GitLab
-  - Other Git GUI client
+- Git
+- GitExtensions
+- GitHub
+- Azure DevOps
+- GitLab
+- Other Git GUI client
  
 #### Documentation
-  - Confluence
-  - Miro
-  - Draw.io
-  - Charts
+- Confluence
+- Miro
+- Draw.io
+- Charts
   
 #### Task Management
-  - Trello
-  - Jira
-  - GitHub issues
+- Trello
+- Jira
+- GitHub issues
  
 #### Communication
-  - Slack
-  - Discord
-  - MS Teams
-  - Zoom
- - Other Communication tools
-  - Google Calendar
+- Slack
+- Discord
+- MS Teams
+- Zoom
+- Other Communication tools
+
+#### Other tools
+- Google Calendar
+- Toggl
 
 ### Sources
 - CI/CD - https://www.katalon.com/resources-center/blog/ci-cd-tools/
-- 
+
+## 5. Testing
+
+Description:
+> In the fifth stage, all the pieces of code are tested to verify and validate a software product. Testers then perform Software Testing Life Cycle activities to monitor the system for bugs, and defects. This is done to check the correspondence between the real and expected behavior of a program.
+
+### Tools/techniques/helpers:
+
+Types of testing
+- Manual testing
+- Automatic testing
+- A/B testing
+- API testing
+- End-to-end testing
+- Unit testing
+- Integration testing
+
+.NET/C# testing:
+- xUnit
+- NUnit
+- MSTest
+- FluentAssertions
+- AutoFixture
+- GWT
+- Moq
+
+### Sources
+- GWT - https://www.agilealliance.org/glossary/gwt/
+
+## 6. Maintenance
+
+Description:
+> Once the system is deployed, any necessary upgrades, enhancements, and changes can be made, implementing new features into the operating software. It is crucial to maintain and modernize the system regularly so it can adapt to future needs.
+
+### Tools/techniques/helpers:
+
+Monitoring:
+- ELK stack
+
+### Sources
+- ELK - https://aws.amazon.com/elasticsearch-service/the-elk-stack/
