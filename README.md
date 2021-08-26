@@ -67,7 +67,9 @@ Description:
 
 > During this software development lifecycle phase, clients will be able to have a first look at your future product. And by the end of the building process, clients will have an operating feature to share with the customers.
 
-**Tools/techniques/helpers:**
+### Tools/techniques/helpers:
+
+#### Code
 - IDE
   - Visual Studio 2019
   - IntelliJ
@@ -77,25 +79,11 @@ Description:
   - NCrunch
   - StyleCop.Analyzers
   - SonarAnalyzer.Csharp
-- Database
-  - MS Server Management Studio
-- Version Control
-  - Git
-  - GitExtensions
-  - GitHub
-  - Azure DevOps
-  - GitLab
-  - Other Git GUI client
-- Documentation
-  - Confluence
-  - Miro
-- Task Management
-  - Trello
-  - Jira
-- Architecture Management
-  - Draw.io
-  - Charts
-- CI/CD
+
+#### Databases
+- MS Server Management Studio
+
+#### CI/CD
   - Travis CI
   - AppVeyor
   - Azure DevOps
@@ -103,7 +91,27 @@ Description:
   - TeamCity
   - GitLab
   - GoCD
-- Communication
+
+#### Version Control
+  - Git
+  - GitExtensions
+  - GitHub
+  - Azure DevOps
+  - GitLab
+  - Other Git GUI client
+ 
+#### Documentation
+  - Confluence
+  - Miro
+  - Draw.io
+  - Charts
+  
+#### Task Management
+  - Trello
+  - Jira
+  - GitHub issues
+ 
+#### Communication
   - Slack
   - Discord
   - MS Teams
@@ -111,6 +119,6 @@ Description:
  - Other Communication tools
   - Google Calendar
 
-**Source:**
+### Sources
 - CI/CD - https://www.katalon.com/resources-center/blog/ci-cd-tools/
 - 
